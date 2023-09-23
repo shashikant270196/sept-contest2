@@ -1,0 +1,47 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  table {
+    align-self: start;
+    border-collapse: collapse;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid black;
+  }
+  td,
+  th {
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+  }
+.searchbar{
+    display: flex;
+}
+.input{
+    width: 70vw;
+}
+.search{
+    color: white;
+    background-color: black;
+}
+.buttonBar{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    color: white;
+    background-color: black; 
+    width: 10vw;
+    height: 2.5vw;
+}
+.table{
+    display: flex;
+    justify-content: space-between; 
+}
+.th{
+    width: 5vw;
+}

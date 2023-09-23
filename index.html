@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header"></div>
+      <div class="searchbar">
+        <input class="input" type="text" />
+        <button class="search">search</button>
+      </div>
+      <div class="buttonBar">
+        <button class="btn">sort A to Z</button>
+        <button class="btn">sort Z to A</button>
+        <button class="btn">sort by marks</button>
+        <button class="btn">sort by passing</button>
+        <button class="btn">sort by class</button>
+        <button class="btn">sort by gender</button>
+      </div>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th class="th">ID</th>
+              <th>Name</th>
+              <th>Gender</th>
+              <th>Class</th>
+              <th>Marks</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody id="student-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
